@@ -1,0 +1,12 @@
+﻿Projeto M17
+Biblioteca
+Requisitos funcionais:
+-Empréstimo/devolução
+-
+
+
+Necessidades de dados
+Base de dados:
+	Livros(id<PK>,ISBN varchar(20),Titulo varchar(30),Autor varchar(40),Tipo,DataEntrada,Estado,Disponivel)
+	Leitores(id<PK>,Nome,Email,DataNascimento,Estado)
+	Emprestimos(id<PK>,id_livro<PK>,id_leitor<PK>,data_emp,data_dev,Estado,Obs)

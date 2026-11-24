@@ -16,7 +16,7 @@ namespace _1º_Projeto_Modulo_17A
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new f_main());
         }
     }
 }

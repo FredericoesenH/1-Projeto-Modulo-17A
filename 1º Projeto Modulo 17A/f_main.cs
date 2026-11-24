@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _1º_Projeto_Modulo_17A.Livros;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,16 +11,17 @@ using System.Windows.Forms;
 
 namespace _1º_Projeto_Modulo_17A
 {
-    public partial class Form1 : Form
+    public partial class f_main : Form
     {
-        public Form1()
+        public f_main()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void livrosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            f_livros f = new f_livros();
+            f.Show();
         }
     }
 }
